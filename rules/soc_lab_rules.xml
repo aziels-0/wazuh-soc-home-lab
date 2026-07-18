@@ -1,0 +1,9 @@
+<group name="soc_lab,">
+  <rule id="100100" level="12">
+    <match>SOC_LAB_TEST suspicious_admin_action</match>
+    <description>Potential credential-access activity detected in SOC lab</description>
+    <mitre>
+      <id>T1003</id>
+    </mitre>
+  </rule>
+</group>
